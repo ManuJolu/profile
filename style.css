@@ -1,0 +1,134 @@
+/* Here goes your CSS */
+h1  {
+  color: #e75151;
+  font-family: 'Amatic SC', cursive;
+  font-size: 40px;
+  margin: 0px;
+}
+
+h2  {
+  color: #3cc4e1;
+  font-family: 'Bungee Hairline', cursive;
+  font-size: 25px;
+}
+
+
+body {
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #6a6e78; /*#003333;*/
+  background-color: #dfe3ee;
+  text-align: center;
+}
+
+div {
+  background-color: rgb(253, 251, 251);
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  width: 1000px;
+  margin: 30px;
+  margin-left: 130px;
+}
+
+#profile {
+  border-radius: 50%;
+  width: 200px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.card_text_center {
+  color: #003333;
+  border-radius: 5px;
+}
+
+.list_inline li {
+  display: inline-block;
+  padding-left: 0px;
+  padding-right: 40px;
+}
+
+.btn-green {
+  background-color: #48ea5b;
+  color: rgb(253, 251, 251);
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.list_inline li i {
+  font-size: 30px;
+  color:#ababab;
+}
+
+.list_inline li i:hover {
+  color:#48ea5b;
+}
+
+a {
+  color:#ababab;
+  text-decoration: none;
+}
+
+a:hover {
+  color:#48ea5b;
+}
+
+.bottom-icons i {
+  font-size: 30px;
+  color: #ababab;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.bottom-icons i:hover {
+  color:#48ea5b;
+}
+
+.bottom-icons {
+  background-color: rgb(253, 251, 251);
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  width: 1000px;
+  margin: 30px;
+  margin-left: 130px;
+}
+
+.favorite-movies tr {
+  text-align: justify;
+}
+
+.movie-text {
+  padding-left: 20px;
+}
+
+#sidebar {
+  width: 30px;
+  height: 530px;
+  margin-left: 20px;
+  margin-top: 0px;
+  float: left;
+  position: fixed;
+}
+
+#sidebar ul li i {
+  font-size: 30px;
+  color:#48ea5b;
+  margin-left: 0px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  list-style: none;
+}
+
+#sidebar ul li i:hover {
+  color:#ababab;
+}
+
+#sidebar ul {
+  list-style: none;
+  padding-left: 0px;
+  padding-top: 150px;
+}
